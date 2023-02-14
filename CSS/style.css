@@ -22,6 +22,13 @@ ul{
 .nav-imagen{
     height: 65px;
 }
+.inicioLogo{
+    background-image:url(../imagenes/inicio.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;}
 .isoGen{
     padding-top: 120px;
     display: block;
@@ -244,4 +251,182 @@ footer{
 .encorePie{
     color: white;
     width: 15px;
+}
+/* Equipo */
+.ondaEquipo{
+    padding-top: 94px;
+    background-image:url(../imagenes/trabajolandia.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction:column;
+  }
+  .boxOnda {
+    width: 900px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px rgba(black, .2);
+    background: lighten(#f0f4c3, 10%);
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  .onda {
+    opacity: .8;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    background:rgb(191, 154, 202);
+    width: 600px;
+    height: 600px;
+    margin-left: -250px;
+    margin-top: -250px;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+  }
+  .onda.-tres {
+    animation: drift 5000ms infinite linear;
+    background:rgb(199, 232, 243);
+  }
+  .onda.-dos {
+    animation: drift 7000ms infinite linear;
+    opacity: .7;
+    background: rgb(255, 229, 97);
+  }
+  .titleEquipo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    line-height: 300px;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    text-shadow: 0 1px 0 rgba(black, .1);
+    text-indent: .3em;
+  }
+.equipoIntro{
+    text-align:end;
+    margin-top: 15px;
+    color: white;
+    text-shadow: #636363;
+}
+.imgAcordion{
+    width: 85px;
+    height: auto;
+    display: block;
+}
+.fondoLila{
+    background-color: rgb(191, 154, 202);
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+/* Servicios */
+.ondaServicios{
+  padding-top: 94px;
+  background-image:url(../imagenes/pexels-marcin-jozwiak-3641377.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  flex-direction:column;
+}
+.boxServicios {
+  width: 900px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 2px 30px rgba(black, .2);
+  background: lighten(#f0f4c3, 10%);
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.wave {
+  opacity: .8;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  background:rgb(199, 232, 243);
+  width: 600px;
+  height: 600px;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  animation: drift 3000ms infinite linear;
+}
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+  background:rgb(191, 154, 202);
+}
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .7;
+  background: rgb(255, 229, 97);
+}
+.titleServicios {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  line-height: 300px;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  text-shadow: 0 1px 0 rgba(black, .1);
+  text-indent: .3em;
+}
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+.btnLegal2{
+    border-color: blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+.btnLegal2:hover{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+}
+.btnTriple2{
+    border-color:gold;
+    color: gold;
+    background-color: white;
+}
+.btnTriple2:hover{
+    background-color:gold;
+    border-color:gold;
+    color: white;   
+}
+.btnSust2{
+    border-color: #0dcaf0;
+    color: #0dcaf0;
+    background-color: white;
+}
+.btnSust2:hover{
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    color: white;
 }
