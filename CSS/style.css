@@ -8,6 +8,9 @@ ul{
 .colorTexto{
     color: #636363;
 }
+a{
+    text-decoration: none;
+}
 /* Inicio */
 .navbar{
     background-color: #636363 !important;
@@ -44,9 +47,10 @@ ul{
     animation-duration: 3s;
 }
 .sloganIndex{
-background: linear-gradient(0deg, rgba(199,232,243,1) 0%, rgba(191,154,202,1) 100%);    height: auto;
+    background: linear-gradient(0deg, rgba(199,232,243,1) 0%, rgba(191,154,202,1) 100%);    height: auto;
     width: auto;
     z-index: 10;
+    border-radius: 5px;
 }
 h1{
     padding: 25px;
@@ -80,6 +84,7 @@ h1{
     background-color: rgb(255, 229, 97);
     margin-top: 80px;
     width: 60%;
+    border-radius: 10px;
 }
 h2{
     padding: 10px;
@@ -97,6 +102,22 @@ h2{
     height: 55px;
     width: auto;
 }
+.btnSust{
+    border-color: skyblue;
+    color: skyblue;
+}
+.btnSust:hover{
+    background-color: skyblue;
+    color: black;
+}
+.btnTriple{
+    border-color: gold;
+    color: gold;
+}
+.btnTriple:hover{
+    background-color: gold;
+    color: black;
+}
 .btnLegal{
     border-color: blueviolet;
     color: blueviolet;
@@ -104,6 +125,7 @@ h2{
 .btnLegal:hover{
     background-color: blueviolet;
     border-color: blueviolet;
+    color: black;
 }
 .btnConocenos{
     display: flex;
@@ -119,6 +141,7 @@ h2{
     width: 60%;
     margin-bottom: 0px;
     margin-top: 80px;
+    border-radius: 10px;
 }
 /* Equipo */
 .equipoInicio{
@@ -242,15 +265,15 @@ footer{
 }
 .contacto{
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-items: end;
+    justify-content: end;    
+    flex-direction: row;
     width: 90%;
     margin: auto;
+    gap: 20px;
 }
 .encorePie{
     color: white;
-    width: 15px;
+    font-size: 30px;
 }
 /* Equipo */
 .ondaEquipo{
@@ -332,6 +355,7 @@ footer{
     width: 60%;
     margin-bottom: 0px;
     margin-top: 80px;
+    border-radius: 10px;
 }
 /* Servicios */
 .ondaServicios{
@@ -429,4 +453,135 @@ footer{
     background-color: #0dcaf0;
     border-color: #0dcaf0;
     color: white;
+}
+/* Contacto */
+.vagueContacto{
+    padding-top: 94px;
+    background-image:url(../imagenes/casita.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction:column;
+  }
+  .boxContacto {
+    width: 900px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px rgba(black, .2);
+    background: lighten(#f0f4c3, 10%);
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  .vague {
+    opacity: .8;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    background:rgb(199, 232, 243);
+    width: 600px;
+    height: 600px;
+    margin-left: -250px;
+    margin-top: -250px;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+  }
+  .vague.-trois {
+    animation: drift 5000ms infinite linear;
+    background:rgb(255, 229, 97);
+  }
+  .vague.-deux {
+    animation: drift 7000ms infinite linear;
+    opacity: .7;
+    background:rgb(191, 154, 202);
+  }
+  .titleContacto {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    line-height: 300px;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    text-shadow: 0 1px 0 rgba(black, .1);
+    text-indent: .3em;
+  }
+  .telefono{
+    background-color: #636363;
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: white;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+  .email{
+    background-color: #636363;
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: white;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .redes{
+    background-color: #636363;
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: white;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center; 
+    flex-wrap: wrap;
+    align-content: center; 
+}
+  .in{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+}
+  .mapa{
+    background-color: #636363;
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: white;
+    padding: 10px;
+    align-content: center;
+    border-radius: 10px;
+  }
+  .mapaGoogle{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.ubi{
+    display: block;
+    text-align: center;
 }
