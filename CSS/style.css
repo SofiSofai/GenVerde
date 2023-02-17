@@ -463,7 +463,7 @@ footer{
 }
 /* Contacto */
 .prllxContacto{
-    background-image: url("/imagenes//casita.png");
+    background-image: url("../imagenes/casita.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
