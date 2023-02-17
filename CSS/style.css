@@ -11,6 +11,9 @@ ul{
 a{
     text-decoration: none;
 }
+body{
+    overflow-x:hidden;
+}
 /* Inicio */
 .navbar{
     background-color: #636363 !important;
@@ -31,7 +34,8 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:50px;}
+    margin-bottom:50px;
+}
 .isoGen{
     padding-top: 120px;
     display: block;
@@ -82,7 +86,7 @@ h1{
 }
 .fondoAmarillo{
     background-color: rgb(255, 229, 97);
-    margin-top: 80px;
+    margin-top: 150px;
     width: 60%;
     border-radius: 10px;
 }
@@ -137,10 +141,9 @@ h2{
 }
 .fondoCeleste{
     background-color: rgb(199, 232, 243);
-    margin-top: 20px;
+    margin-top: 150px;
     width: 60%;
-    margin-bottom: 0px;
-    margin-top: 80px;
+    margin-bottom: 0rem;
     border-radius: 10px;
 }
 /* Equipo */
@@ -150,7 +153,7 @@ h2{
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    margin: 0;
+    margin: 0px;
     align-items: baseline;
     justify-items: center;
     padding-bottom: 15px;
@@ -274,6 +277,10 @@ footer{
 .encorePie{
     color: white;
     font-size: 30px;
+    transition: all 1s;
+}
+.encorePie:hover{
+    transform: scale(2);
 }
 /* Equipo */
 .ondaEquipo{
@@ -455,13 +462,17 @@ footer{
     color: white;
 }
 /* Contacto */
-.vagueContacto{
-    padding-top: 94px;
-    background-image:url(../imagenes/casita.png);
+.prllxContacto{
+    background-image: url("/imagenes//casita.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 30px;
+    margin-bottom:0px;
+}
+.vagueContacto{
+    padding-top: 94px;
     margin-bottom:50px;
     display: flex;
     justify-content: center;
@@ -517,71 +528,109 @@ footer{
     text-shadow: 0 1px 0 rgba(black, .1);
     text-indent: .3em;
   }
-  .telefono{
-    background-color: #636363;
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    color: white;
-    padding: 10px;
-    align-content: center;
+.contenedorContacto{
+    border: solid black 2px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.671);
+    padding-bottom: 20px;
 }
-  .email{
-    background-color: #636363;
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    color: white;
-    padding: 10px;
-    align-content: center;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-  }
-  .redes{
-    background-color: #636363;
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    color: white;
-    padding: 10px;
-    align-content: center;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    align-items: center; 
-    flex-wrap: wrap;
-    align-content: center; 
+.divider3{
+    background-color: gold;
+    height: 1px;
+    width: 500px;
+    margin:auto
 }
-  .in{
-    color: white;
-    margin-left: 10px;
-    font-size: 30px;
+.tel{
+    margin-top: 35px;
 }
-  .mapa{
-    background-color: #636363;
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 20px;
-    margin-top: 60px;
-    color: white;
-    padding: 10px;
-    align-content: center;
-    border-radius: 10px;
-  }
-  .mapaGoogle{
-    width: 100%;
-    height: 300px;
-    margin: auto;
+.email{
+    margin-top: 35px;
 }
 .ubi{
-    display: block;
-    text-align: center;
+    margin-top: 35px;
+}
+.sombra{
+    background-color: white;
+    border-radius: 10px;
+    padding: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .encorePie{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .MVV{
+        display: inline
+    }
+    .serviciosIndex{
+        display: inline;
+        margin: auto;
+    }
+    .isoGen{
+        height: 450px;
+        width: auto;
+    }
+    .divider2{
+        width: 100%;
+    }
+    .boxOnda{
+        width: 100%;
+        height: 300px;
+    }
+    .onda{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 110%;
+        left: 90%;
+    }
+    .titleEquipo{
+        font-size: medium;
+    }
+    .boxContacto{
+        width: 100%;
+        height: 300px;
+    }
+    .vague{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 110%;
+        left: 92%;
+    }
+    .titleContacto{
+        font-size: medium;
+    }
+    .mapa{
+        width: 200px;
+        height: 50px;
+    }
+    .sombra{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .divider3{
+        width: 60%;
+    }
+    .boxServicios{
+        width: 100%;
+        height: 300px;
+    }
+    .wave{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 110%;
+        left: 92%;
+    }
+    .titleServicios{
+        font-size: medium;
+    }
 }
