@@ -634,3 +634,12 @@ footer{
         font-size: medium;
     }
 }
+    @media screen and (max-width: 576px) {
+    .inicioLogo{
+        background-image:url(../imagenes/inicioPexel.jpg);
+        margin-bottom:20px;
+    }
+    .prllxContacto{
+        padding-bottom: 20px;
+    }
+}
