@@ -636,10 +636,23 @@ footer{
 }
     @media screen and (max-width: 576px) {
     .inicioLogo{
-        background-image:url(../imagenes/inicioPexel.jpg);
+        background-image:url(../imagenes/inicioMobile.jpg);
         margin-bottom:20px;
     }
     .prllxContacto{
+        background-image: url(../imagenes/casitaMobile.png);
         padding-bottom: 20px;
+    }
+    .ondaEquipo{
+        background-image: url(../imagenes/equipoMobile.jpg);
+        padding-top: 100px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+    .ondaServicios{
+        background-image: url(../imagenes/serviciosMobile.jpg);
+        padding-top: 100px;
+        height: 500px;
+        margin-bottom: 20px;
     }
 }
