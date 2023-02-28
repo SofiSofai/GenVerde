@@ -96,14 +96,19 @@ body{
     }
 }
 /*fin waves*/
-
 .sloganIndex{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(191,154,202,0.9023984593837535) 100%);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255, 229, 97, 0.589) 100%);
     height: auto;
     width: auto;
-    border-radius: 5px;
+    border-radius: 50px;
     margin-top: 60px;
     padding-top: 20px;
+}
+.intro{
+    margin: auto;
+    text-align: center;
+    padding: 65px;
+    font-size: 30px
 }
 h1{
     padding: 25px;
@@ -135,7 +140,7 @@ h1{
 }
 .fondoAmarillo{
     background-color: rgb(255, 229, 97);
-    margin-top: 150px;
+    margin-top: 130px;
     width: 60%;
     border-radius: 10px;
 }
@@ -416,8 +421,8 @@ footer{
 }
 /* Equipo */
 .ondaEquipo{
-    padding-top: 94px;
-    background-image:url(../imagenes/trabajolandia.png);
+    padding-top: 130px;
+    background-image:url(../imagenes/equipoMobile.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -431,7 +436,7 @@ footer{
   }
   .boxOnda {
     width: 900px;
-    height: 400px;
+    height: 900px;
     border-radius: 5px;
     box-shadow: 0 2px 30px rgba(black, .2);
     background: lighten(#f0f4c3, 10%);
@@ -442,13 +447,13 @@ footer{
   .onda {
     opacity: .8;
     position: absolute;
-    top: 3%;
+    top: 55%;
     left: 50%;
     background:rgb(191, 154, 202);
-    width: 600px;
-    height: 600px;
-    margin-left: -250px;
-    margin-top: -250px;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -300px;
     transform-origin: 50% 48%;
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
@@ -464,8 +469,7 @@ footer{
   }
   .titleEquipo {
     position: absolute;
-    left: 0;
-    top: 0;
+    margin: auto;
     width: 100%;
     z-index: 1;
     line-height: 300px;
@@ -482,6 +486,9 @@ footer{
     margin-top: 15px;
     color: white;
     text-shadow: #636363;
+}
+.accordion-item{
+    background-color: #f2f2f2;
 }
 .imgAcordion{
     width: 85px;
@@ -566,7 +573,7 @@ footer{
 .btnLegal2{
     border-color: blueviolet;
     color: blueviolet;
-    background-color: white;
+    background-color:#f2f2f2;
 }
 .btnLegal2:hover{
     background-color: blueviolet;
@@ -576,7 +583,7 @@ footer{
 .btnTriple2{
     border-color:gold;
     color: gold;
-    background-color: white;
+    background-color:#f2f2f2;
 }
 .btnTriple2:hover{
     background-color:gold;
@@ -586,7 +593,7 @@ footer{
 .btnSust2{
     border-color: #0dcaf0;
     color: #0dcaf0;
-    background-color: white;
+    background-color:#f2f2f2;
 }
 .btnSust2:hover{
     background-color: #0dcaf0;
@@ -717,10 +724,11 @@ footer{
         height: 200px;
         position: absolute;
         top: 110%;
-        left: 90%;
+        left: 78%;
     }
     .titleEquipo{
         font-size: medium;
+        line-height: 200px;
     }
     .boxContacto{
         width: 100%;
@@ -766,12 +774,14 @@ footer{
     .genPortada{
         width: 80%;
     }
+    .intro{
+        font-size: larger;
+    }
     .prllxContacto{
         background-image: url(../imagenes/casitaMobile.png);
         padding-bottom: 20px;
     }
     .ondaEquipo{
-        background-image: url(../imagenes/equipoMobile.jpg);
         padding-top: 100px;
         height: 500px;
         margin-bottom: 20px;
