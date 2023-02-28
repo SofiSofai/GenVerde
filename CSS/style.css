@@ -13,6 +13,7 @@ a{
 }
 body{
     overflow-x:hidden;
+    background-color:#f2f2f2;
 }
 /* Inicio */
 .navbar{
@@ -25,43 +26,89 @@ body{
 .nav-link{
     color: whitesmoke;
 }
-.nav-imagen{
-    height: 65px;
+.imgNav{
+    height: 70px;
+    margin-left: 10px;
+    margin-top: auto;
 }
-.inicioLogo{
-    background-image:url(../imagenes/inicio.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
+/*waves*/
+.headerwaves{
+    position:relative;
+    text-align:center;
+    background: linear-gradient(60deg, rgb(191,154,202) 0%, rgba(199,232,243,1) 100%);
+    color:#f2f2f2;
+    background-color: #f2f2f2;
 }
-.isoGen{
-    padding-top: 120px;
-    display: block;
-    margin: auto;
-    width: auto;
-    height: 650px;
-    z-index: 1;
-    padding-bottom: 100px;
+.inner-header{
+    height:65vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
 }
-.animate__flip{
-    animation-iteration-count: infinite;
-    animation-delay: 1s;
-    animation-duration: 3s;
+.flex{ /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+.waves{
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+}  
+  /* Animation */ 
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+    transform: translate3d(-90px,0,0);
+    }
+    100% { 
+    transform: translate3d(85px,0,0);
+    }
+}
+  /*Shrinking for mobile*/
+@media (max-width: 768px) {
+.waves {
+    height:40px;
+    min-height:40px;
+    }
+}
+/*fin waves*/
+
 .sloganIndex{
-    background: linear-gradient(0deg, rgba(199,232,243,1) 0%, rgba(191,154,202,1) 100%);    height: auto;
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(191,154,202,0.9023984593837535) 100%);
+    height: auto;
     width: auto;
-    z-index: 10;
     border-radius: 5px;
+    margin-top: 60px;
+    padding-top: 20px;
 }
 h1{
     padding: 25px;
     margin: 10px;
     text-align: center;
-    text-shadow: #636363;
-    color: white;
+    color:#636363;
 }
 .iconosMVV{
     height: 45px;
@@ -80,9 +127,10 @@ h1{
     width: auto;
     height: auto;
     margin-top: 20px;
+    background-color:#f2f2f2;
 }
 .card-header{
-    background-color: white;
+    background-color:#f2f2f2;
 }
 .fondoAmarillo{
     background-color: rgb(255, 229, 97);
@@ -254,25 +302,91 @@ h2{
 }
 /* Footer */
 footer{
-    background-color: #636363;
+    margin: 50px;
+}
+.footer #buttonFooter{
+	width:55px;
+	height:55px;
+	border: #636363 12px solid;
+	border-radius:35px;
+    margin-left: 1250px;
+	position:relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #buttonFooter:hover{
+	width:35px;
+	height:35px;
+	border: #3A3A3A 12px solid;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	position:relative;
+}
+.footer {
+	bottom:0;
+	left:0;
+	position:fixed;
     width: 100%;
-    height: 120px;
-    display: flex;
-    flex-direction: row;
+    height: 3em;
+    overflow:hidden;
+    margin:auto;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	z-index:999;
 }
-.imgFooter{
-    height: 70px;
-    width: auto;
-    margin-left: 15px;
-    margin-top: 25px;
+.footer:hover {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+	height: 15em;
 }
-.contacto{
+.footer #containerFooter{
+	margin-top:5px;
+	width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0; 
+    background: #3A3A3A;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+.footer #cont{
+    position:relative;
+    top:-45px;
+    right:190px;
+    width:150px;
+	height:auto;
+	margin:auto;
+}
+.footer_center{
+	width:500px;
+	float:left;
+}
+.footer h3{
+    color: white;
+	font-size: 30px;
+	font-weight: 100;
+	margin-top:70px;
+	margin-left:40px;
+}
+.redes{
     display: flex;
-    justify-content: end;    
-    flex-direction: row;
-    width: 90%;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    margin: auto;
 }
 .encorePie{
     color: white;
