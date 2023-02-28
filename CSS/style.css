@@ -6,7 +6,7 @@ ul{
     list-style: none;
 }
 .colorTexto{
-    color: #636363;
+    color:#636363;
 }
 a{
     text-decoration: none;
@@ -38,6 +38,7 @@ body{
     background: linear-gradient(60deg, rgb(191,154,202) 0%, rgba(199,232,243,1) 100%);
     color:#f2f2f2;
     background-color: #f2f2f2;
+    width: 100%;
 }
 .inner-header{
     height:65vh;
@@ -299,6 +300,23 @@ h2{
     font-size: 14px;
     font-style: italic;
     margin-top: 4px;
+}
+/*ContactoInicio*/
+.fondoLila{
+    background-color:rgb(191, 154, 202);
+    margin-top: 150px;
+    width: 60%;
+    margin-bottom: 0rem;
+    border-radius: 10px;
+}
+.conteinerContacto{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width: 90%;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Footer */
 footer{
@@ -687,10 +705,6 @@ footer{
         display: inline;
         margin: auto;
     }
-    .isoGen{
-        height: 450px;
-        width: auto;
-    }
     .divider2{
         width: 100%;
     }
@@ -748,10 +762,9 @@ footer{
         font-size: medium;
     }
 }
-    @media screen and (max-width: 576px) {
-    .inicioLogo{
-        background-image:url(../imagenes/inicioMobile.jpg);
-        margin-bottom:20px;
+@media screen and (max-width: 576px) {
+    .genPortada{
+        width: 80%;
     }
     .prllxContacto{
         background-image: url(../imagenes/casitaMobile.png);
@@ -768,5 +781,8 @@ footer{
         padding-top: 100px;
         height: 500px;
         margin-bottom: 20px;
+    }
+    .footer{
+        display: none;
     }
 }
