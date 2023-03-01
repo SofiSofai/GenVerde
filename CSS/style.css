@@ -10,10 +10,20 @@ ul{
 }
 a{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;;
 }
 body{
     overflow-x:hidden;
     background-color:#f2f2f2;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+body::selection{
+    background-color: rgb(255, 229, 97);
+    color:mediumorchid;
+}
+p h1 h2 h3 li{
+    font-family: 'Montserrat', sans-serif;
 }
 /* Inicio */
 .navbar{
@@ -88,13 +98,6 @@ body{
     transform: translate3d(85px,0,0);
     }
 }
-  /*Shrinking for mobile*/
-@media (max-width: 768px) {
-.waves {
-    height:40px;
-    min-height:40px;
-    }
-}
 /*fin waves*/
 .sloganIndex{
     background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255, 229, 97, 0.589) 100%);
@@ -110,7 +113,7 @@ body{
     padding: 65px;
     font-size: 30px
 }
-h1{
+.slogan{
     padding: 25px;
     margin: 10px;
     text-align: center;
@@ -435,7 +438,7 @@ footer{
     flex-direction:column;
   }
   .boxOnda {
-    width: 900px;
+    width: 100%;
     height: 900px;
     border-radius: 5px;
     box-shadow: 0 2px 30px rgba(black, .2);
@@ -447,13 +450,15 @@ footer{
   .onda {
     opacity: .8;
     position: absolute;
-    top: 55%;
-    left: 50%;
+    /* top: 55%;
+    left: 50%; */
     background:rgb(191, 154, 202);
     width: 400px;
     height: 400px;
-    margin-left: -200px;
-    margin-top: -300px;
+    margin-left: 28%;
+    margin-top: 5%;
+    /* margin-left: -200px;
+    margin-top: -300px; */
     transform-origin: 50% 48%;
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
@@ -468,11 +473,12 @@ footer{
     background: rgb(255, 229, 97);
   }
   .titleEquipo {
+    font-weight: 500;
     position: absolute;
     margin: auto;
     width: 100%;
     z-index: 1;
-    line-height: 300px;
+    line-height: 430px;
     text-align: center;
     transform: translate3d(0, 0, 0);
     color: white;
@@ -487,21 +493,19 @@ footer{
     color: white;
     text-shadow: #636363;
 }
-.accordion-item{
+.accordion-item .accordion-button{
+    background-color: #f2f2f2;
+}
+.accordion-body{
+    background-color: #f2f2f2;
+}
+.accordion-header{
     background-color: #f2f2f2;
 }
 .imgAcordion{
     width: 85px;
     height: auto;
     display: block;
-}
-.fondoLila{
-    background-color: rgb(191, 154, 202);
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 0px;
-    margin-top: 80px;
-    border-radius: 10px;
 }
 /* Servicios */
 .ondaServicios{
@@ -519,8 +523,8 @@ footer{
   flex-direction:column;
 }
 .boxServicios {
-  width: 900px;
-  height: 400px;
+  width: 100%;
+  height: 900px;
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(black, .2);
   background: lighten(#f0f4c3, 10%);
@@ -531,13 +535,13 @@ footer{
 .wave {
   opacity: .8;
   position: absolute;
-  top: 3%;
-  left: 50%;
+  /* top: 3%;
+  left: 50%; */
   background:rgb(199, 232, 243);
-  width: 600px;
-  height: 600px;
-  margin-left: -250px;
-  margin-top: -250px;
+  width: 400px;
+  height: 400px;
+  margin-left: 35%;
+  margin-top: 5%;
   transform-origin: 50% 48%;
   border-radius: 43%;
   animation: drift 3000ms infinite linear;
@@ -552,12 +556,14 @@ footer{
   background: rgb(255, 229, 97);
 }
 .titleServicios {
+    font-weight: 500;
   position: absolute;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
+  margin: auto;
   width: 100%;
   z-index: 1;
-  line-height: 300px;
+  line-height: 470px;
   text-align: center;
   transform: translate3d(0, 0, 0);
   color: white;
@@ -599,6 +605,23 @@ footer{
     background-color: #0dcaf0;
     border-color: #0dcaf0;
     color: white;
+}
+.fondoLila{
+    background-color: rgb(191, 154, 202);
+    margin-top: 20px;
+    width: 60%;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.contenedorClientes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 /* Contacto */
 .prllxContacto{
@@ -700,7 +723,11 @@ footer{
     margin-right: 500px;
 }
 /* Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
+    .waves {
+        height:40px;
+        min-height:40px;
+    }
     .encorePie{
         font-size: 20px;
         margin-right: 10px;
@@ -722,9 +749,7 @@ footer{
     .onda{
         width: 200px;
         height: 200px;
-        position: absolute;
-        top: 110%;
-        left: 78%;
+        margin-left: 32%;
     }
     .titleEquipo{
         font-size: medium;
@@ -762,12 +787,11 @@ footer{
     .wave{
         width: 200px;
         height: 200px;
-        position: absolute;
-        top: 110%;
-        left: 92%;
+        margin-left: 38%;
     }
     .titleServicios{
         font-size: medium;
+        line-height: 270px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -782,17 +806,30 @@ footer{
         padding-bottom: 20px;
     }
     .ondaEquipo{
-        padding-top: 100px;
+        /* padding-top: 100px; */
         height: 500px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .ondaServicios{
         background-image: url(../imagenes/serviciosMobile.jpg);
-        padding-top: 100px;
+        /* padding-top: 100px; */
         height: 500px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     .footer{
         display: none;
+    }
+    .wave{
+        width: 200px;
+        height: 200px;
+        margin-left: 23%;
+    }
+}
+@media screen and (max-width: 305px) {
+    .onda{
+        margin-left: 20%;
+    }
+    .wave{
+        margin-left: 20%;
     }
 }
