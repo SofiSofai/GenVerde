@@ -852,6 +852,9 @@ footer{
     .iconoContacto{
         display: none;
     }
+    .madeby{
+        font-size: small;
+    }
 }
 @media screen and (max-width: 576px) {
     .genPortada{
