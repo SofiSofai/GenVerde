@@ -333,6 +333,9 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+.iconoWhapp{
+    font-size: 35px;
+}
 /* Footer */
 footer{
     margin: 50px;
@@ -854,6 +857,9 @@ footer{
     }
     .madeby{
         font-size: small;
+    }
+    .iconoWhapp{
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 576px) {
