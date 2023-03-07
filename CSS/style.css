@@ -441,7 +441,7 @@ footer{
 /* Equipo */
 .ondaEquipo{
     padding-top: 130px;
-    background-image:url(../imagenes/equipo_img.jpg);
+    background-image:url(../imagenes/equipo_img.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -526,7 +526,7 @@ footer{
 /* Servicios */
 .ondaServicios{
   padding-top: 94px;
-  background-image:url(../imagenes//portada_servicio.jpg);
+  background-image:url(../imagenes//portada_servicio.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
