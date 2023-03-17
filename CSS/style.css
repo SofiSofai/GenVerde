@@ -639,6 +639,9 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.cardClientes{
+    border-color: transparent;
+}
 /* Contacto */
 .vagueContacto{
     padding-top: 94px;
