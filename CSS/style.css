@@ -159,7 +159,7 @@ h2{
 }
 .serviciosIndex{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     width: 90%;
     gap: 10px;
     margin-top: 50px;
@@ -170,6 +170,11 @@ h2{
     height: 55px;
     width: auto;
 }
+.iconosServiciosB{
+    height: 45px;
+    width: auto;
+    margin: 5px;
+}
 .btnSust{
     border-color: skyblue;
     color: skyblue;
@@ -177,6 +182,15 @@ h2{
 .btnSust:hover{
     background-color: skyblue;
     color: black;
+}
+.btnCO{
+    border-color: grey;
+    color: grey;
+}
+.btnCO:hover{
+    background-color: grey;
+    color: black;
+    border-color: gray;
 }
 .btnTriple{
     border-color: gold;
@@ -740,9 +754,11 @@ footer{
   .datosContacto{
     text-align: center;
   }
-  iframe{
+  .mapaC{
+    width: 850px; 
+    height: 300px;
     border-radius: 15px;
-  }
+}
 /* Responsive */
 @media screen and (max-width: 766px) {
     .waves {
@@ -851,10 +867,9 @@ footer{
     .columnas{
         grid-template-columns: none;
     }
-    iframe{
-        width: 200px;
-        height: auto;
-    }
+    .mapaC{
+        width: 600px;
+    }    
     .iconoContacto{
         display: none;
     }
@@ -871,10 +886,6 @@ footer{
     }
     .intro{
         font-size: larger;
-    }
-    .prllxContacto{
-        background-image: url(../imagenes/casitaMobile.png);
-        padding-bottom: 20px;
     }
     .onda{
         margin-left: 23%;
@@ -907,6 +918,13 @@ footer{
     .titleServicios{
         line-height: 230px;
     }
+    .mapaC{
+        width: 350px;
+    }
+    .vagueContacto{
+        background-image: url(../imagenes/casaOriginal\ \(2\).png);
+    }
+
 }
 @media screen and (max-width: 305px) {
     .onda{
