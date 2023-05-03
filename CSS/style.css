@@ -716,6 +716,121 @@ footer{
     width: 50%;
     border-radius: 10px;
 }
+/*Huella*/
+.ondaSerHuella{
+    padding-top: 94px;
+    background-image:url(../imagenes/portada_servicios3.png);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction:column;
+}
+.boxSerHuella{
+    background-color:grey;
+    margin: 15px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+  }
+.titleSerHuella {
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color:whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    letter-spacing: .1em;
+  }
+.contenedortextoSust{
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, grey 100%);
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.textoSust{
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    color:#636363;
+    font-weight:200;
+}
+.topicosH{
+    background-color:grey;
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+}
+.colorTextoB{
+    color: whitesmoke;
+}
+/*Legal*/
+.ondaSerLegal{
+    padding-top: 94px;
+    background-image:url(../imagenes/portada_servicios4.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction:column;
+  }
+  .boxSerLegal{
+    background-color:rgb(191, 154, 202);
+    margin: 15px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .titleSerLegal {
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color:#757272a4;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    letter-spacing: .1em;
+  }
+.contenedortextoLegal{
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(191, 154, 202, 0.589) 100%);
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.textoLegal{
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    color:#636363;
+    font-weight:200;
+}
+.topicosL{
+    background-color:rgb(191, 154, 202);
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+}
 /* Contacto */
 .vagueContacto{
     padding-top: 94px;
