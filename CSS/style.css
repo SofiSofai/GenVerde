@@ -176,7 +176,7 @@ h2{
     margin: 5px;
 }
 .btnSust{
-    border-color: skyblue;
+    border-color: rgb(135, 206, 235);
     color: skyblue;
 }
 .btnSust:hover{
@@ -655,6 +655,66 @@ footer{
 }
 .cardClientes{
     border-color: transparent;
+}
+/*Sustentabilidad*/
+.ondaSerSust{
+    padding-top: 94px;
+    background-image:url(../imagenes/portada_servicios2.png);
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction:column;
+  }
+  .boxSerSust{
+    background-color:rgb(199, 232, 243);
+    margin: 15px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .titleSerSust {
+    font-weight: 500;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+    /* line-height: 470px; */
+    text-align: center;
+    color:#757272a4;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    letter-spacing: .1em;
+  }
+  .subt{
+    margin-left: 15px;
+  }
+.contenedortextoSust{
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(199, 232, 243, 0.589) 100%);
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.textoSust{
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    color:#636363;
+    font-weight:200;
+}
+.topicosS{
+    background-color:rgb(199, 232, 243);
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
 }
 /* Contacto */
 .vagueContacto{
