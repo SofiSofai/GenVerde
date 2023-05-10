@@ -1073,6 +1073,9 @@ footer{
     .iconoWhapp{
         font-size: 15px;
     }
+    .imgH{
+        width: 70px;
+    }
 }
 @media screen and (max-width: 576px) {
     .genPortada{
@@ -1118,7 +1121,26 @@ footer{
     .vagueContacto{
         background-image: url(../imagenes/casaOriginal\ \(2\).png);
     }
-
+    .ondaSerHuella{
+        background-image: url(../imagenes/portada_servicios3Mobile.png);
+    }
+    .imgH{
+        width: 80px;
+        height: 80px;
+        margin: auto;
+    }
+    .topicosH{
+        width: 60%;
+    }
+    .imgGHG{
+        display: none;
+    }
+    .textoSust{
+        font-size: large;
+    }
+    .topicosH{
+        font-size: large;
+    }
 }
 @media screen and (max-width: 305px) {
     .onda{
@@ -1129,5 +1151,10 @@ footer{
     }
     .vague{
         margin-left: 20%;
+    }
+    .imgH{
+        width: 40px;
+        height: 40px;
+        margin: auto;
     }
 }
