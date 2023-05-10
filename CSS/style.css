@@ -751,7 +751,7 @@ footer{
     letter-spacing: .1em;
   }
 .contenedortextoSust{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, grey 100%);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(128, 128, 128, 0.788) 100%);
     height: auto;
     width: auto;
     border-radius: 50px;
@@ -774,6 +774,25 @@ footer{
 }
 .colorTextoB{
     color: whitesmoke;
+}
+.colorTextoB2{
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.imgH{
+    width: 50px;
+}
+.conIcono{
+    display: flex;
+    flex-direction: row;
+}
+.iconoH{
+    font-size: 40px;
+}
+.imgGHG{
+    text-align: center;
+    margin-bottom: 30px;
 }
 /*Legal*/
 .ondaSerLegal{
