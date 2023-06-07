@@ -657,7 +657,7 @@ footer{
     border-color: transparent;
 }
 /*Sustentabilidad*/
-.ondaSerSust{
+/* .ondaSerSust{
     padding-top: 94px;
     background-image:url(../imagenes/portada_servicios2.png);
     background-attachment:fixed;
@@ -670,7 +670,7 @@ footer{
     align-items: center;
     height: 700px;
     flex-direction:column;
-  }
+  } */
   .boxSerSust{
     background-color:rgb(199, 232, 243);
     margin: 15px;
@@ -695,7 +695,7 @@ footer{
     margin-left: 15px;
   }
 .contenedortextoSust{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(199, 232, 243, 0.589) 100%);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(189, 233, 248) 100%);
     height: auto;
     width: auto;
     border-radius: 50px;
@@ -716,8 +716,11 @@ footer{
     width: 50%;
     border-radius: 10px;
 }
+ol, ul{
+    padding-left: 0px;
+}
 /*Huella*/
-.ondaSerHuella{
+/* .ondaSerHuella{
     padding-top: 94px;
     background-image:url(../imagenes/portada_servicios3.png);
     background-attachment:fixed;
@@ -730,6 +733,11 @@ footer{
     align-items: center;
     height: 700px;
     flex-direction:column;
+} */
+.fondoHuella{
+    width: 100%;
+    height: 100%;
+    padding-top: 94px;
 }
 .boxSerHuella{
     background-color:grey;
@@ -750,8 +758,8 @@ footer{
     text-indent: .3em;
     letter-spacing: .1em;
   }
-.contenedortextoSust{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(128, 128, 128, 0.788) 100%);
+.contenedortextoHuella{
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(75, 75, 75, 0.596) 100%);
     height: auto;
     width: auto;
     border-radius: 50px;
@@ -1124,9 +1132,9 @@ footer{
     .vagueContacto{
         background-image: url(../imagenes/casaOriginal\ \(2\).png);
     }
-    .ondaSerHuella{
+    /* .ondaSerHuella{
         background-image: url(../imagenes/portada_servicios3Mobile.png);
-    }
+    } */
     .imgH{
         width: 80px;
         height: 80px;
