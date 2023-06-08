@@ -1157,6 +1157,12 @@ ol, ul{
     .textoSust{
         font-size: large;
     }
+    .boxSerSust{
+        width: 90%;
+    }
+    .topicosS{
+        width: 65%;
+    }
     .topicosH{
         font-size: large;
     }
