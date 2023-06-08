@@ -1135,6 +1135,9 @@ ol, ul{
     /* .ondaSerHuella{
         background-image: url(../imagenes/portada_servicios3Mobile.png);
     } */
+    .boxSerHuella{
+        width: 60%;
+    }
     .imgH{
         width: 80px;
         height: 80px;
