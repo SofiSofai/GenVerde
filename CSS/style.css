@@ -954,7 +954,7 @@ ol, ul{
     align-items: center;
   }
   .titulosContacto{
-    background-color: rgb(255, 229, 97);
+    background-color: rgba(255, 229, 97, 0.795);
     margin-top: 5px;
     padding-left: 5px;
     width: 50%;
@@ -968,6 +968,10 @@ ol, ul{
     width: 850px; 
     height: 300px;
     border-radius: 15px;
+}
+/*Internacional*/
+.internacional{
+    padding-top: 150px;
 }
 /* Responsive */
 @media screen and (max-width: 766px) {
