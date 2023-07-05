@@ -805,6 +805,9 @@ ol, ul{
 .space{
     margin-top: 55px;
 }
+.space2{
+    margin-bottom: 80px;
+}
 /*Legal*/
 /* .ondaSerLegal{
     padding-top: 94px;
@@ -969,6 +972,20 @@ ol, ul{
     height: 300px;
     border-radius: 15px;
 }
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border-color: #636363;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    z-index: 999;
+  }
 /*Internacional*/
 .internacional{
     padding-top: 150px;
