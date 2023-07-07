@@ -987,11 +987,55 @@ ol, ul{
     z-index: 999;
   }
 /*Internacional*/
-.internacional{
-    padding-top: 150px;
+.intLogo{
+    padding-top: 50px;
+}
+.img-thumbnail{
+    height: auto;
+    width: 15rem;
+}
+.carreteInternacional{
+    width: 95%;
+    margin-top: 3%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.bandera{
+    width: 50px;
+    height: 50px;
+    margin-top: 1%;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+}
+.ubicacionInternacional{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 3%;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2.2%;
+}
+.boliviaMap{
+    width: 500px;
+    height: auto;
+}
+.ubiBoli{
+    width: 60%;
+    height: auto;
+    font-size: medium;
+    justify-content: end;
+    align-content: end;
+}
+.introBol{
+    text-align: center;
+    align-self: center;
 }
 /* Responsive */
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
     .waves {
         height:40px;
         min-height:40px;
@@ -1113,6 +1157,21 @@ ol, ul{
     .imgH{
         width: 70px;
     }
+    .carreteInternacional{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .bandera{
+        width: 55px;
+        height: 60px;
+        margin: auto;
+    }
+    .genPortadaInternacional{
+        width: 80%;
+    }
+    .boliviaMap{
+        width: 400px;
+    }
 }
 @media screen and (max-width: 576px) {
     .genPortada{
@@ -1186,6 +1245,23 @@ ol, ul{
     }
     .topicosH{
         font-size: large;
+    }
+    .carreteInternacional{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .img-thumbnail{
+        width: 10rem;
+        height: auto;
+    }
+    .ubicacionInternacional{
+        grid-template-columns: 0.5fr 2fr;
+    }
+    .boliviaMap{
+        width: 190px;
+    }
+    .introBol{
+        font-size: small;
     }
 }
 @media screen and (max-width: 305px) {
