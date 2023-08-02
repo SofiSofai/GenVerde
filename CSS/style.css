@@ -480,15 +480,11 @@ footer{
   .onda {
     opacity: .8;
     position: absolute;
-    /* top: 55%;
-    left: 50%; */
     background:rgb(191, 154, 202);
     width: 400px;
     height: 400px;
     margin-left: 35%;
     margin-top: 3%;
-    /* margin-left: -200px;
-    margin-top: -300px; */
     transform-origin: 50% 48%;
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
@@ -565,8 +561,6 @@ footer{
 .wave {
   opacity: .8;
   position: absolute;
-  /* top: 3%;
-  left: 50%; */
   background:rgb(199, 232, 243);
   width: 400px;
   height: 400px;
@@ -588,8 +582,6 @@ footer{
 .titleServicios {
     font-weight: 400;
   position: absolute;
-  /* left: 0;
-  top: 0; */
   margin: auto;
   width: 100%;
   z-index: 1;
@@ -614,6 +606,16 @@ footer{
 .btnLegal2:hover{
     background-color: blueviolet;
     border-color: blueviolet;
+    color: white;
+}
+.btnHoteles{
+    border-color:#4c8640;
+    color:#4c8640;
+    background-color:#f2f2f2;
+}
+.btnHoteles:hover{
+    background-color: green;
+    border-color: green;
     color: white;
 }
 .btnTriple2{
@@ -657,20 +659,6 @@ footer{
     border-color: transparent;
 }
 /*Sustentabilidad*/
-/* .ondaSerSust{
-    padding-top: 94px;
-    background-image:url(../imagenes/portada_servicios2.png);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    flex-direction:column;
-  } */
   .boxSerSust{
     background-color:rgb(199, 232, 243);
     margin: 15px;
@@ -683,7 +671,6 @@ footer{
     margin: auto;
     width: 100%;
     z-index: 1;
-    /* line-height: 470px; */
     text-align: center;
     color:#757272a4;
     text-transform: uppercase;
@@ -720,20 +707,6 @@ ol, ul{
     padding-left: 0px;
 }
 /*Huella*/
-/* .ondaSerHuella{
-    padding-top: 94px;
-    background-image:url(../imagenes/portada_servicios3.png);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    flex-direction:column;
-} */
 .fondoHuella{
     width: 100%;
     height: 100%;
@@ -809,20 +782,6 @@ ol, ul{
     margin-bottom: 80px;
 }
 /*Legal*/
-/* .ondaSerLegal{
-    padding-top: 94px;
-    background-image:url(../imagenes/portada_servicios4.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    flex-direction:column;
-  } */
 .fondoLegal{
     width: 100%;
     height: 100%;
@@ -897,15 +856,11 @@ ol, ul{
   .vague {
     opacity: .8;
     position: absolute;
-    /* top: 3%;
-    left: 50%; */
     background:rgb(199, 232, 243);
     width: 400px;
     height: 400px;
     margin-left: 35%;
     margin-top: 5%;
-    /* margin-left: -250px;
-    margin-top: -250px; */
     transform-origin: 50% 48%;
     border-radius: 43%;
     animation: drift 3000ms infinite linear;
@@ -978,14 +933,31 @@ ol, ul{
     left: 20px;
     width: 60px;
     height: 60px;
-    background-color: #ccc;
+    background-color: #a5a5a5;
     border-radius: 50%;
-    border-color: #636363;
+    border-color: #4d4b4b solid;
     text-align: center;
     color: #fff;
     font-size: 30px;
     z-index: 999;
-  }
+}
+.whatsapp-button-Bv {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #4c8640;
+    border-radius: 50%;
+    border-color: #4c8640 solid;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    z-index: 999;
+}
+.fa-whatsapp{
+    margin-top: 22%;
+}
 /*Internacional*/
 .intLogo{
     padding-top: 50px;
@@ -1184,17 +1156,13 @@ ol, ul{
         margin-left: 23%;
     }
     .ondaEquipo{
-        /* padding-top: 100px; */
         height: 500px;
-        /* margin-bottom: 20px; */
     }
     .ondaServicios{
         background-image: url(../imagenes/serviciosMobile.png);
         background-attachment: local;
-        /* padding-top: 100px; */
         height: 600px;
         width: 100%;
-        /* margin-bottom: 20px; */
     }
     .wave{
         width: 200px;
@@ -1217,9 +1185,6 @@ ol, ul{
     .vagueContacto{
         background-image: url(../imagenes/casaOriginal\ \(2\).png);
     }
-    /* .ondaSerHuella{
-        background-image: url(../imagenes/portada_servicios3Mobile.png);
-    } */
     .boxSerHuella{
         width: 60%;
     }
