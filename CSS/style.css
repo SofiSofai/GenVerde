@@ -162,7 +162,7 @@ h2{
     grid-template-columns:1fr 1fr;
     width: 90%;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -219,10 +219,30 @@ h2{
 }
 .fondoCeleste{
     background-color: rgb(199, 232, 243);
-    margin-top: 150px;
+    margin-top: 80px;
     width: 60%;
     margin-bottom: 0rem;
     border-radius: 10px;
+}
+/*Trayectoria*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+.section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.stats .fa {
+  color: rgb(191, 154, 202);
+  font-size: 60px;
+}
+.row{
+    margin-top: 35px;
 }
 /* Equipo */
 .equipoInicio{
@@ -333,7 +353,7 @@ h2{
 /*ContactoInicio*/
 .fondoLila{
     background-color:rgb(191, 154, 202);
-    margin-top: 150px;
+    margin-top: 80px;
     width: 60%;
     margin-bottom: 0rem;
     border-radius: 10px;
@@ -343,7 +363,7 @@ h2{
     grid-template-columns:1fr 1fr 1fr;
     width: 90%;
     gap: 10px;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }

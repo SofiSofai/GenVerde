@@ -64,7 +64,16 @@
           <p class="card-text colorTexto">Medimos el <b>impacto ambiental</b> de tu organización traducida en emisiones de CO2eq, para mejorar el desempeño ambiental de tus operaciones con la posibilidad de reducir dichas emisiones y comprometerte a la carbono neutralidad.</p>
           <p class="card-text colorTexto">Calculando la huella de carbono podes conocer en qué sector de tu empresa se están emitiendo más Gases de Efecto Invernadero (GEI) y así, <b>actuar</b> de manera puntual y eficiente.</p>
         </div>
-        <a class="btn btnCO" href="./huella.html"><i class="fa-solid fa-plus" style="color:grey;"></i></a>                 
+        <!-- <a class="btn btnCO" href="./huella.html"><i class="fa-solid fa-plus" style="color:grey;"></i></a> -->
+        <a class="btn btnCO" data-bs-toggle="collapse" href="#collapseCO" role="button" aria-expanded="false" aria-controls="collapseCO"><i class="fa-solid fa-angle-down" style="color:gray;"></i></a>
+        <div class="collapse" id="collapseCO">
+          <div class="card card-body colorTexto">
+            <p>Medición de la huella de carbono- ISO 14064 y GHG Protocol</p>
+            <p>Plan de reducción de emisiones- <b>SBTi</b> y <b>Net Zero</b></p>
+            <p>Compensaciones- aliados estratégicos</p>
+            <p>Huella de carbono de <b>eventos</b></p>
+          </div> 
+        </div>                 
       </div>
 
       <div class="card text-center" data-aos="fade-up">
@@ -73,7 +82,6 @@
         </div>
         <div class="card-body">
           <h5 class="card-title colorTexto">Triple impacto</h5>
-          <img src="../imagenes/iconos/triple/griLogo.png" alt="GriStandar" class="iconosServiciosB" data-aos="zoom-in" data-aos-duration="3000">
           <img src="../imagenes/iconos/triple/empresaB.png" alt="empresa B" class="iconosServiciosB" data-aos="zoom-in" data-aos-duration="3000">
           <img src="../imagenes/iconos/triple/ODSlogo.jpg" alt="Objetivos de desarrollo sostenible" class="iconosServiciosB" data-aos="zoom-in" data-aos-duration="3000">
           <p class="card-text colorTexto">Sabemos que cómo empresa, estás interesado en lograr un único impacto económico positivo. ¿Te imaginas complementarlo con una parte social y ambiental, logrando un <b>triple impacto positivo</b>? Hacelo posible con nuestras herramientas.</p>
@@ -81,9 +89,8 @@
         <a class="btn btnTriple2" data-bs-toggle="collapse" href="#collapseTriple" role="button" aria-expanded="false" aria-controls="collapseTriple"><i class="fa-solid fa-angle-down" style="color:gold;"></i></a>
         <div class="collapse" id="collapseTriple">
           <div class="card card-body colorTexto">
-            <p>Integración de factores ESG</p>
+            <p>Migración de empresas hacia el triple impacto</p>
             <p>Certificación de empresa B</p>
-            <p>Reporte de sustentabilidad</p>
             <p>Implementación de ODS</p>
             <!-- <p><a class="btn btnTriple2" href="">Saber más</a></p>     -->
           </div> 
@@ -95,22 +102,19 @@
           <img src="../imagenes/iconos/sustentabilidad/sustCeleste.png" alt="programa de sustentabilidad" class="iconosServicios" data-aos="zoom-in" data-aos-duration="3000">
         </div>
         <div class="card-body">
-          <h5 class="card-title colorTexto">Programa de sustentabilidad</h5>
-          <p class="card-text colorTexto">Servicio personalizado de gestión ambiental. Te ofrecemos ir <b>más allá</b> generando acciones y mejorando la eficiencia de procesos productivos ya existentes con el objetivo de contribuir positivamente al medio ambiente y lograr un cambio.</p>
-          <h6 class="card-text colorTexto">¡Personaliza cada herramienta según tus necesidades!</h6>
+          <h5 class="card-title colorTexto">Criterios ESG</h5>
+          <img src="../imagenes/iconos/triple/griLogo.png" alt="GriStandar" class="iconosServiciosB" data-aos="zoom-in" data-aos-duration="3000">
+          <p class="card-text colorTexto">Integramos y reportamos critesrios ESG bajo estandares GRI</p>
         </div>
         <a class="btn btn-primary btnSust2" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa-solid fa-angle-down" style="color: #87ceeb;"></i></a>
         <div class="collapse" id="collapseExample">
           <div class="card card-body">
             <ul class="colorTexto">
-              <li>Gestión de residuos</li>
-              <li>Gestión de efluentes</li>
-              <li>Eficiencia energética</li>
-              <li>Uso racional del agua</li>
-              <li>Plan de gestión ambiental</li>
-              <li>Implementación de sistemas de gestión ISO</li>
+              <li>Identificación de grupos de interés- <b>stakeholders</b></li>
+              <li>Análisis de materialidad: identificación de <b>kpi´s</b> ambientales, sociales y de gobernanza</li>
+              <li>Reporte de sustentabilidad <b>GRI</b></li>
             </ul>
-            <p><a class="btn btn-primary btnSust2" href="./sustentabilidad.html">Saber más</a></p>                    
+            <!-- <p><a class="btn btn-primary btnSust2" href="">Saber más</a></p>                     -->
           </div>
         </div>
       </div>
@@ -129,9 +133,8 @@
           <div class="card card-body">
             <ul class="colorTexto">
               <li>Capacitaciones internas</li>
-              <li>Capacitaciones en materia ambiental e indicadores ambientales</li>
-              <li>Capacitaciones sobre prácticas a realizar y tareas de seguimiento</li>
-              <li>Capacitaciones en mejora continua</li>
+              <li>Capacitaciones al personal de la empresa  en materia de servicios prestados</li>
+              <li>Capacitaciones personalizadas para empresas</li>
             </ul>
           </div>
         </div>
@@ -166,62 +169,71 @@
       <h2 class="colorTexto">Clientes</h2>
     </div>
     <div class="contenedorClientes">
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/JerarquicosLogo.png" class="card-img-top" alt="Jerarquico Salud triple impacto" data-aos="flip-left">
+      </div>
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/mixawoodLogo.png" class="card-img-top" alt="Mixawood PWC sustentable madera plastica" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/logoTORK.png" class="card-img-top" alt="Tork sustentable legal" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/adecoagro_logo.png" class="card-img-top" alt="Adecoagro sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/Papierttei_logo.png" class="card-img-top" alt="Papiertei rosario" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/byl_logo.png" class="card-img-top" alt="ByL sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/logoEssential.png" class="card-img-top" alt="essential energy" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/bioenergias_logo.png" class="card-img-top" alt="bio energías" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/novofertil.png" class="card-img-top" alt="novo fertil sustrato organico" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/truckLogo.png" class="card-img-top" alt="TruckStore S.A. Concesionario oficial Mercedez-Benz" data-aos="flip-left">
+      </div>
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/vulcamet.png" class="card-img-top" alt="vulcamet sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/acaLogo.png" class="card-img-top" alt="aca sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/cheMate.png" class="card-img-top" alt="chemate sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
-        <img src="../imagenes/clientes/UCI_logo.png" class="card-img-top" alt="chemate sustentable" data-aos="flip-left">
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/UCI_logo.png" class="card-img-top" alt="unidad comercial e industrial san lorenzo" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
-        <img src="../imagenes/clientes/Helvetica.png" class="card-img-top" alt="helvetica sustentable" data-aos="flip-left">
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/Helvetica.png" class="card-img-top" alt="helvetica economia circular" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
-        <img src="../imagenes/clientes/haas.png" class="card-img-top" alt="humano estacion fitness sustentable" data-aos="flip-left">
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/haas.png" class="card-img-top" alt="HASS INCORA" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/Logo-Bionbax.png" class="card-img-top" alt="bionbax sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/vitrofin.png" class="card-img-top" alt="vitrofin sustentable" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/MAClogo.png" class="card-img-top" alt="MAC ingenieria DEPOT CENTER" data-aos="flip-left">
       </div>
-      <div class="card cardClientes" style="width: 18rem;">
-        <img src="../imagenes/clientes/humanoLogo.png" class="card-img-top" alt="humano estacion fitness sustentable" data-aos="flip-left">
-      </div>
-      <div class="card cardClientes" style="width: 18rem;">
+      <div class="card cardClientes" style="width: 10rem;">
         <img src="../imagenes/clientes/pintof_logo.png" class="card-img-top" alt="pintofscience huella de evento" data-aos="flip-left">
+      </div>
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/scervLogo.png" class="card-img-top" alt="sello verde santa fe servicios cerveceros" data-aos="flip-left">
+      </div>
+      <div class="card cardClientes" style="width: 10rem;">
+        <img src="../imagenes/clientes/humanoLogo.png" class="card-img-top" alt="humano estacion fitness sustentable" data-aos="flip-left">
       </div>
    </div>
   </section>
