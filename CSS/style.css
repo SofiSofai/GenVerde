@@ -102,11 +102,11 @@ h2{
 }
 /*fin waves*/
 .sloganIndex{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(255, 229, 97, 0.589) 100%);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(191, 154, 202, 0.589) 100%);
     height: auto;
     width: auto;
     border-radius: 50px;
-    margin-top: 60px;
+    margin-top: 70px;
     padding-top: 20px;
 }
 .intro{
@@ -147,6 +147,16 @@ h2{
 .card-text{
     text-align: center;
     padding-left: 0rem;
+}
+.contamos{
+    margin-top: 25px;
+    font-weight: 200;
+}
+.divContamos{
+    text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 .fondoAmarillo{
     background-color: rgb(255, 229, 97);
@@ -243,6 +253,10 @@ h2{
 }
 .row{
     margin-top: 35px;
+    margin-left: 20px;
+}
+.counting{
+    font-size: 35px;
 }
 /* Equipo */
 .equipoInicio{
@@ -533,12 +547,7 @@ footer{
     text-shadow: 0 1px 0 rgba(black, .1);
     text-indent: .3em;
   }
-.equipoIntro{
-    text-align:end;
-    margin-top: 15px;
-    color: white;
-    text-shadow: #636363;
-}
+
 .accordion-item .accordion-button{
     background-color: #f2f2f2;
 }
@@ -553,6 +562,193 @@ footer{
     height: auto;
     display: block;
 }
+.border{
+    border-radius: 50%;
+}
+/* pentraido */
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 80rem;
+  }
+  
+  .cols{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .col{
+    width: calc(25% - 2rem);
+    margin: 1rem;
+    cursor: pointer;
+  }
+  
+  .containerEquipo{
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+      -webkit-perspective: 1000px;
+              perspective: 1000px;
+  }
+  
+  .front,
+  .back{
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(75,75,75,0.25);
+    border-radius: 10px;
+      background-position: center;
+      -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      text-align: center;
+      min-height: 280px;
+      height: auto;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 1.5rem;
+  }
+  
+  .back{
+    background: #cedce7;
+    background: -webkit-linear-gradient(45deg,  #cedce7 0%,#9abac9 100%);
+    background: -o-linear-gradient(45deg,  #cedce7 0%,#9abac9 100%);
+    background: linear-gradient(45deg,  #cedce7 0%,#9abac9 100%);
+  }
+  
+  .front:after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      content: '';
+      display: block;
+      opacity: .6;
+      background-color: #000;
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      border-radius: 10px;
+  }
+  .containerEquipo:hover .front,
+  .containerEquipo:hover .back{
+      -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+      transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  }
+  
+  .back{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  
+  .inner{
+      -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+              transform: translateY(-50%) translateZ(60px) scale(0.94);
+      top: 50%;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding: 2rem;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      outline: 1px solid transparent;
+      -webkit-perspective: inherit;
+              perspective: inherit;
+      z-index: 2;
+  }
+  .textochico{
+    font-size: 15px;
+  }
+  .containerEquipo .back{
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+      -webkit-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+  }
+  
+  .containerEquipo .front{
+      -webkit-transform: rotateY(0deg);
+              transform: rotateY(0deg);
+      -webkit-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+  }
+  
+  .containerEquipo:hover .back{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .containerEquipo:hover .front{
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+  }
+  
+  .front .inner p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .front .inner p:after{
+    content: '';
+    width: 4rem;
+    height: 2px;
+    position: absolute;
+    background: #C6D4DF;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -.75rem;
+  }
+  
+  .front .inner span{
+    color: rgba(255,255,255,0.7);
+    font-family: 'Montserrat';
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 64rem){
+    .col{
+      width: calc(33.333333% - 2rem);
+    }
+  }
+  
+  @media screen and (max-width: 48rem){
+    .col{
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (max-width: 32rem){
+    .col{
+      width: 100%;
+      margin: 0 0 2rem 0;
+    }
+  }
 /* Servicios */
 .ondaServicios{
   padding-top: 94px;
@@ -851,7 +1047,7 @@ ol, ul{
 /* Contacto */
 .vagueContacto{
     padding-top: 94px;
-    background-image:url(../imagenes/casaOriginal.png);
+    background-image:url(../imagenes/contactoMesa.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1202,9 +1398,9 @@ ol, ul{
     .mapaC{
         width: 350px;
     }
-    .vagueContacto{
+    /* .vagueContacto{
         background-image: url(../imagenes/casaOriginal\ \(2\).png);
-    }
+    } */
     .boxSerHuella{
         width: 60%;
     }
