@@ -1352,6 +1352,11 @@ ol, ul{
 }
 
 @media screen and (max-width: 48rem){
+    .cols{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 40% 40%;
+    }
     .col{
       width: calc(50% - 2rem);
     }
@@ -1443,6 +1448,11 @@ ol, ul{
 }
 
 @media screen and (max-width: 32rem){
+    .cols{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 80%;
+    }
     .col{
       width: 100%;
       margin: 0 0 2rem 0;
