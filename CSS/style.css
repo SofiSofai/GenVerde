@@ -1385,6 +1385,9 @@ ol, ul{
     .col{
       width: calc(100% - 2rem);
     }
+    .cierre{
+        font-size: medium;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -1393,6 +1396,9 @@ ol, ul{
     }
     .intro{
         font-size: larger;
+    }
+    .cierre{
+        font-size: medium;
     }
     .onda{
         margin-left: 23%;
