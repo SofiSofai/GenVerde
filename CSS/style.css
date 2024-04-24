@@ -101,27 +101,27 @@ h2{
     }
 }
 /*fin waves*/
-.sloganIndex{
+/* .sloganIndex{
     background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(191, 154, 202, 0.589) 100%);
     height: auto;
     width: auto;
     border-radius: 50px;
     margin-top: 70px;
     padding-top: 20px;
-}
+} */
 .intro{
     margin: auto;
     text-align: center;
     padding: 65px;
     font-size: 30px
 }
-.slogan{
+/* .slogan{
     padding: 25px;
     margin: 10px;
     text-align: center;
     color:#636363;
     font-weight:200;
-}
+} */
 .iconosMVV{
     height: 45px;
     width: auto;
@@ -131,9 +131,10 @@ h2{
     grid-template-columns:1fr 1fr 1fr;
     width: 90%;
     gap: 10px;
-    margin-top: 80px;
+    margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 6%;
 }
 .card{
     width: auto;
@@ -164,7 +165,10 @@ h2{
     margin-top: 130px;
     width: 60%;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-bottom: 3%;
 }
+
 h2{
     padding: 10px;
 }
@@ -232,8 +236,9 @@ h2{
     background-color: rgb(199, 232, 243);
     margin-top: 80px;
     width: 60%;
-    margin-bottom: 0rem;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-bottom: 3%;
 }
 /*Trayectoria*/
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
@@ -365,8 +370,32 @@ h2{
     font-style: italic;
     margin-top: 4px;
 }
+/*Frase de cierre*/
+.cierreindex{
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+.cierre{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.fancy-undeline{
+    background-image: linear-gradient(120deg, #CC95C0,#DBD4B4,#84b1e7e5 100%);
+    background-repeat: no-repeat;
+    background-size: 80% 0.5em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+    text-align: center;
+}
+.fancy-undeline:hover {
+    background-size: 100% 88%;
+}
+
+
+
 /*ContactoInicio*/
-.fondoLila{
+/* .fondoLila{
     background-color:rgb(191, 154, 202);
     margin-top: 80px;
     width: 60%;
@@ -384,7 +413,7 @@ h2{
 }
 .iconoWhapp{
     font-size: 35px;
-}
+} */
 /* Footer */
 footer{
     margin: 50px;
@@ -488,6 +517,7 @@ footer{
     font-size: 15px;
 }
 /* Equipo */
+
 .ondaEquipo{
     padding-top: 130px;
     background-image:url(../imagenes/equipo_img.png);
@@ -566,12 +596,6 @@ footer{
 .border{
     border-radius: 50%;
 }
-/* pentraido */
-/* *{
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-   */
 .wrapper{
     width: 90%;
     margin: 0 auto;
@@ -841,9 +865,10 @@ footer{
     background-color: rgb(191, 154, 202);
     margin-top: 20px;
     width: 60%;
-    margin-bottom: 0px;
     margin-top: 80px;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-bottom: 3%;
 }
 .contenedorClientes{
     display: flex;
@@ -858,7 +883,7 @@ footer{
     border-color: transparent;
 }
 /*Sustentabilidad*/
-  .boxSerSust{
+  /* .boxSerSust{
     background-color:rgb(199, 232, 243);
     margin: 15px;
     padding: 8px;
@@ -904,8 +929,8 @@ footer{
 }
 ol, ul{
     padding-left: 0px;
-}
-/*Huella*/
+} */
+/* Huella
 .fondoHuella{
     width: 100%;
     height: 100%;
@@ -979,8 +1004,8 @@ ol, ul{
 }
 .space2{
     margin-bottom: 80px;
-}
-/*Legal*/
+} */
+/* Legal
 .fondoLegal{
     width: 100%;
     height: 100%;
@@ -1026,8 +1051,8 @@ ol, ul{
     padding: 8px;
     width: 50%;
     border-radius: 10px;
-}
-/* Contacto */
+} */
+/* Contacto
 .vagueContacto{
     padding-top: 94px;
     background-image:url(../imagenes/contactoMesa.jpg);
@@ -1125,7 +1150,7 @@ ol, ul{
     width: 850px; 
     height: 300px;
     border-radius: 15px;
-}
+} */
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -1415,9 +1440,6 @@ ol, ul{
     }
     .imgGHG{
         display: none;
-    }
-    .textoSust{
-        font-size: large;
     }
     .boxSerSust{
         width: 90%;
