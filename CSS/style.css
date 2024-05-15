@@ -373,12 +373,12 @@ h2{
 /*Frase de cierre*/
 .cierreindex{
     margin-top: 8%;
-    margin-bottom: 6%;
+    margin-bottom: 8%;
 }
 .cierre{
     margin: auto;
     text-align: center;
-    font-size: 30px;
+    font-size:xx-large;
 }
 .fancy-undeline{
     background-image: linear-gradient(120deg, #CC95C0,#DBD4B4,#84b1e7e5 100%);
