@@ -128,6 +128,16 @@ h2{
 }
 .MVV{
     display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 90%;
+    gap: 10px;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+}
+.aseguramos{
+    display: grid;
     grid-template-columns:1fr 1fr 1fr;
     width: 90%;
     gap: 10px;
@@ -882,275 +892,6 @@ footer{
 .cardClientes{
     border-color: transparent;
 }
-/*Sustentabilidad*/
-  /* .boxSerSust{
-    background-color:rgb(199, 232, 243);
-    margin: 15px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-  }
-  .titleSerSust {
-    font-weight: 500;
-    margin: auto;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    color:#757272a4;
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    text-indent: .3em;
-    letter-spacing: .1em;
-  }
-  .subt{
-    margin-left: 15px;
-  }
-.contenedortextoSust{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(189, 233, 248) 100%);
-    height: auto;
-    width: auto;
-    border-radius: 50px;
-    margin-top: 60px;
-    padding-top: 20px;
-}
-.textoSust{
-    padding: 25px;
-    margin: 10px;
-    text-align: center;
-    color:#636363;
-    font-weight:200;
-}
-.topicosS{
-    background-color:rgb(199, 232, 243);
-    margin: 5px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-}
-ol, ul{
-    padding-left: 0px;
-} */
-/* Huella
-.fondoHuella{
-    width: 100%;
-    height: 100%;
-    padding-top: 94px;
-}
-.boxSerHuella{
-    background-color:grey;
-    margin: 15px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-  }
-.titleSerHuella {
-    font-weight: 500;
-    margin: auto;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    color:whitesmoke;
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    text-indent: .3em;
-    letter-spacing: .1em;
-  }
-.contenedortextoHuella{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(75, 75, 75, 0.596) 100%);
-    height: auto;
-    width: auto;
-    border-radius: 50px;
-    margin-top: 60px;
-    padding-top: 20px;
-}
-.textoSust{
-    padding: 25px;
-    margin: 10px;
-    text-align: center;
-    color:#636363;
-    font-weight:200;
-}
-.topicosH{
-    background-color:grey;
-    margin: 5px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-}
-.colorTextoB{
-    color: whitesmoke;
-}
-.colorTextoB2{
-    color: whitesmoke;
-    padding-top: 15px;
-    padding-right: 15px;
-}
-.imgH{
-    width: 50px;
-}
-.conIcono{
-    display: flex;
-    flex-direction: row;
-}
-.iconoH{
-    font-size: 40px;
-}
-.imgGHG{
-    text-align: center;
-    margin-bottom: 30px;
-}
-.space{
-    margin-top: 55px;
-}
-.space2{
-    margin-bottom: 80px;
-} */
-/* Legal
-.fondoLegal{
-    width: 100%;
-    height: 100%;
-    padding-top: 94px;
-}
-  .boxSerLegal{
-    background-color:rgb(191, 154, 202);
-    margin: 15px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-  }
-  .titleSerLegal {
-    font-weight: 500;
-    margin: auto;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    color:#757272a4;
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    text-indent: .3em;
-    letter-spacing: .1em;
-  }
-.contenedortextoLegal{
-    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(191, 154, 202, 0.589) 100%);
-    height: auto;
-    width: auto;
-    border-radius: 50px;
-    margin-top: 60px;
-    padding-top: 20px;
-}
-.textoLegal{
-    padding: 25px;
-    margin: 10px;
-    text-align: center;
-    color:#636363;
-    font-weight:200;
-}
-.topicosL{
-    background-color:rgb(191, 154, 202);
-    margin: 5px;
-    padding: 8px;
-    width: 50%;
-    border-radius: 10px;
-} */
-/* Contacto
-.vagueContacto{
-    padding-top: 94px;
-    background-image:url(../imagenes/contactoMesa.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    flex-direction:column;
-  }
-  .boxContacto {
-    width: 100%;
-    height: 600px;
-    border-radius: 5px;
-    box-shadow: 0 2px 30px rgba(black, .2);
-    background: lighten(#f0f4c3, 10%);
-    position: relative;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-  }
-  .vague {
-    opacity: .8;
-    position: absolute;
-    background:rgb(199, 232, 243);
-    width: 400px;
-    height: 400px;
-    margin-left: 35%;
-    margin-top: 5%;
-    transform-origin: 50% 48%;
-    border-radius: 43%;
-    animation: drift 3000ms infinite linear;
-  }
-  .vague.-trois {
-    animation: drift 5000ms infinite linear;
-    background:rgb(255, 229, 97);
-  }
-  .vague.-deux {
-    animation: drift 7000ms infinite linear;
-    opacity: .7;
-    background:rgb(191, 154, 202);
-  }
-  .titleContacto {
-    font-weight: 400;
-    font-size: 33px;
-    position: absolute;
-    margin: auto;
-    width: 100%;
-    z-index: 1;
-    line-height: 470px;
-    text-align: center;
-    transform: translate3d(0, 0, 0);
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    text-shadow: 0 1px 0 rgba(black, .1);
-    text-indent: .3em;
-  }
-  .contenedorContacto{
-    width: 70%;
-    height: auto;
-    margin: auto;
-  }
-  .columnas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 5px;
-    gap: 15px;
-  }
-  .fa-handshake{
-    font-size: 150px;
-    color: #636363;
-    text-align: center;
-  }
-  .iconoContacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .titulosContacto{
-    background-color: rgba(255, 229, 97, 0.795);
-    margin-top: 5px;
-    padding-left: 5px;
-    width: 50%;
-    border-radius: 10px;
-    font-weight: 400;
-  }
-  .datosContacto{
-    text-align: center;
-  }
-  .mapaC{
-    width: 850px; 
-    height: 300px;
-    border-radius: 15px;
-} */
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -1247,6 +988,9 @@ ol, ul{
         margin-right: 10px;
     }
     .MVV{
+        display: inline
+    }
+    .aseguramos{
         display: inline
     }
     .serviciosIndex{
@@ -1430,9 +1174,6 @@ ol, ul{
     .mapaC{
         width: 350px;
     }
-    /* .vagueContacto{
-        background-image: url(../imagenes/casaOriginal\ \(2\).png);
-    } */
     .boxSerHuella{
         width: 60%;
     }
@@ -1472,6 +1213,13 @@ ol, ul{
     }
     .introBol{
         font-size: small;
+    }
+    .fancy-undeline{
+        background-image: linear-gradient(120deg, #CC95C0,#DBD4B4,#84b1e7e5 100%);
+        background-repeat: no-repeat;
+        background-size: 70% 0.5em;
+        background-position: 0 60%;
+        text-align: center;
     }
 }
 
